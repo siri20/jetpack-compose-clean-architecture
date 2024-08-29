@@ -14,7 +14,7 @@ data class ProductEntity(
     val description: String? = null,
 
     @ColumnInfo(name = "price")
-    val price: Long? = null,
+    val price: Double? = null,
 
     @ColumnInfo(name = "thumbnail")
     val thumbnail: String? = null,

@@ -14,11 +14,11 @@ object UtilFunctions {
         if (BuildConfig.DEBUG) Log.e("ERROR_IMO", message)
     }
 
-    fun Long?.fromDollarToRupiah(): String {
+    fun Double?.fromDollarToRupiah(): String {
         val localId = localeID
         val formatter = NumberFormat.getCurrencyInstance(localId)
-        val fakeDollarToday = 15000
-        val intValue = (this ?: 0) * fakeDollarToday
+        val fakeDollarToday = 15000.0
+        val intValue = (this ?: 0.0) * fakeDollarToday
         return when {
             intValue > 0 -> formatter.format(intValue).replace(",00", "")
             intValue < 0 -> formatter.format(intValue).replace(",00", "")
