@@ -93,7 +93,7 @@ fun ProductItemPreview() {
         product = Product(
             id = 1,
             title = "Product Title",
-            price = 100000,
+            price = 100000.0,
             thumbnail = "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
         ),
         modifier = Modifier
