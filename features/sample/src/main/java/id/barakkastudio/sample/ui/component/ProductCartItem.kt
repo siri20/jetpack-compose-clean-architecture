@@ -1,12 +1,14 @@
 package id.barakkastudio.sample.ui.component
 
 
+import android.graphics.Bitmap
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Delete
@@ -48,12 +50,20 @@ fun ProductCartItem(
         modifier = modifier
             .padding(8.dp)
             .fillMaxWidth()
+            .wrapContentHeight()
     ) {
-        Row {
+        Row(
+            modifier = modifier
+                .fillMaxWidth()
+                .wrapContentHeight()
+        ) {
             SubcomposeAsyncImage(
                 model = ImageRequest.Builder(LocalContext.current)
                     .data(product.thumbnail)
+                    .placeholder(R.drawable.logo_nebenginaja)
                     .crossfade(true)
+                    .size(150, 150)
+                    .bitmapConfig(Bitmap.Config.RGB_565)
                     .build(),
                 loading = {
                     CircularProgressIndicator(
@@ -70,9 +80,9 @@ fun ProductCartItem(
             )
             Column(
                 modifier = Modifier
-                    .fillMaxWidth()
                     .padding(8.dp)
                     .weight(1.0f)
+                    .align(Alignment.CenterVertically)
             ) {
                 Text(
                     text = product.title ?: "",

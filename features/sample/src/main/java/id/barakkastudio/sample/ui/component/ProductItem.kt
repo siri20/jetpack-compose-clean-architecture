@@ -1,6 +1,7 @@
 package id.barakkastudio.sample.ui.component
 
 
+import android.graphics.Bitmap
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.height
@@ -49,7 +50,10 @@ fun ProductItem(
             SubcomposeAsyncImage(
                 model = ImageRequest.Builder(LocalContext.current)
                     .data(product.thumbnail)
+                    .placeholder(R.drawable.logo_nebenginaja)
                     .crossfade(true)
+                    .size(150, 150)
+                    .bitmapConfig(Bitmap.Config.RGB_565)
                     .build(),
                 loading = {
                     CircularProgressIndicator(

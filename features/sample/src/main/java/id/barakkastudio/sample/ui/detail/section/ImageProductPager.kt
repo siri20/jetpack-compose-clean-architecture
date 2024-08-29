@@ -49,6 +49,7 @@ fun ImageProductPager(product: Product) {
         SubcomposeAsyncImage(
             model = ImageRequest.Builder(LocalContext.current)
                 .data(items?.get(page))
+                .placeholder(R.drawable.logo_nebenginaja)
                 .crossfade(true)
                 .build(),
             loading = {
