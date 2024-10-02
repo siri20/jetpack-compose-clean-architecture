@@ -10,7 +10,7 @@ plugins {
 
 @Suppress("UnstableApiUsage")
 android {
-    namespace = "id.barakkastudio.core"
+    namespace = "com.siri.core"
     compileSdk = Versions.compile_sdk
 
     defaultConfig {

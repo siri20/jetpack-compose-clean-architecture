@@ -9,11 +9,11 @@ plugins {
 
 @Suppress("UnstableApiUsage")
 android {
-    namespace = "id.barakkastudio.nebenginaja"
+    namespace = "com.siri.mytestapp"
     compileSdk = Versions.compile_sdk
 
     defaultConfig {
-        applicationId = "id.barakkastudio.nebenginaja"
+        applicationId = "com.siri.mytestapp"
         minSdk = Versions.min_sdk
         targetSdk = Versions.target_sdk
         versionCode = Versions.version_code
