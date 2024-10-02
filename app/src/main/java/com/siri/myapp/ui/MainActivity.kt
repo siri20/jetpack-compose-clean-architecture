@@ -15,6 +15,7 @@ import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import dagger.hilt.android.AndroidEntryPoint
 import com.siri.core.ui.theme.JetShopeeTheme
+import com.siri.myapp.ui.interview.MyPracticeMainApp
 import com.siri.sample.ui.splash.SplashScreen
 
 @AndroidEntryPoint
@@ -29,7 +30,7 @@ class MainActivity : ComponentActivity() {
                     if (showSplashScreen) {
                         SplashScreen(onTimeout = { showSplashScreen = false })
                     } else {
-                        JetMainApp(windowSize = windowSize.widthSizeClass)
+                        MyPracticeMainApp(windowSize = windowSize.widthSizeClass)
                     }
                 }
             }
@@ -39,10 +40,10 @@ class MainActivity : ComponentActivity() {
 
 @Preview(showBackground = true, device = Devices.PIXEL_4)
 @Composable
-fun JetShopeePreview() {
+fun PracticePreview() {
     JetShopeeTheme {
         Surface {
-            JetMainApp(windowSize = WindowWidthSizeClass.Compact)
+            MyPracticeMainApp(windowSize = WindowWidthSizeClass.Compact)
         }
     }
 }

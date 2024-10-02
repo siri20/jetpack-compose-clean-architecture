@@ -1,0 +1,15 @@
+package com.siri.core.domain.usecase.user
+
+import com.siri.core.data.model.User
+import com.siri.core.domain.repository.practice.PracticeRepository
+import com.siri.core.domain.usecase.BaseUseCase
+import kotlinx.coroutines.flow.Flow
+import javax.inject.Inject
+
+class GetUserByIdUseCase @Inject constructor(
+    private val practiceRepository: PracticeRepository
+) : BaseUseCase<Int, Flow<User>>() {
+    override fun execute(params: Int): Flow<User> {
+        return practiceRepository.getUserByIdApiCall(params)
+    }
+}

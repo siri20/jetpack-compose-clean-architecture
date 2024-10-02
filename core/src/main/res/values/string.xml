@@ -1,12 +1,14 @@
 <resources>
     <string name="app_name">My Sample App</string>
+    <string name="landing">Landing</string>
     <string name="home">Home</string>
     <string name="cart">Cart</string>
     <string name="profile">Profile</string>
     <string name="product_thumbnail">Product Thumbnail</string>
     <string name="no_product">No Product List</string>
-    <string name="load_product">Load Product…</string>
+    <string name="load_product">Load …</string>
     <string name="error_product">Can\'t load product, try again.</string>
+    <string name="detail_full">Full Detail</string>
     <string name="detail_product">Detail Product</string>
     <string name="description">Description</string>
     <string name="clear">Clear</string>

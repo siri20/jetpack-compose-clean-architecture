@@ -34,7 +34,6 @@ fun SplashScreen(
     onTimeout: () -> Unit, modifier: Modifier = Modifier
 ) {
     LaunchedEffect(Unit) {
-        delay(2500)
         onTimeout()
     }
     Box(
@@ -48,7 +47,6 @@ fun SplashScreen(
             Image(
                 modifier = modifier
                     .size(Dimens.dp120)
-                    .shadow(elevation = Dimens.dp1, shape = RoundedCornerShape(Dimens.dp12))
                     .clip(shape = RoundedCornerShape(Dimens.dp12)),
                 painter = painterResource(id = R.drawable.logo_sample),
                 contentDescription = stringResource(id = R.string.app_name),

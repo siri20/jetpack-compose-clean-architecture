@@ -2,11 +2,21 @@ package com.siri.core.data.datasource.remote
 
 import com.siri.core.data.model.Product
 import com.siri.core.data.model.ProductResponse
+import com.siri.core.data.model.User
+import com.siri.core.data.model.UsersResponse
 import retrofit2.http.*
 
 /** 10/1/2022. */
 
 interface ApiService {
+
+    @GET("users")
+    suspend fun getUsers(): UsersResponse
+
+    @GET("users/{id}")
+    suspend fun getUserDetails(
+        @Path("id") id: Int
+    ): User
 
     @GET("products")
     suspend fun getProducts(): ProductResponse

@@ -15,8 +15,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.siri.core.R
 
-/** 5/10/2023. */
-
 @Composable
 fun ProgressProduct() {
     Column {
