@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.sp
 import com.siri.core.R
 import com.siri.core.data.model.Product
 
-/** Created by github.com/im-o on 5/12/2023. */
+/** 5/12/2023. */
 
 @Composable
 internal fun DescriptionProduct(product: Product) {

@@ -30,7 +30,7 @@ import androidx.navigation.NavHostController
 import com.siri.core.util.Dimens
 import com.siri.sample.ui.navigation.model.BottomBar
 
-/** Created by github.com/im-o on 11/17/2023. */
+/** 11/17/2023. */
 
 @Composable
 fun NavDrawerMenu(

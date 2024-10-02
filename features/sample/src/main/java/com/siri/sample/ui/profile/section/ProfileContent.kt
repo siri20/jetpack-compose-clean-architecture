@@ -24,7 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.siri.core.R
 
-/** Created by github.com/im-o on 5/13/2023. */
+/** 5/13/2023. */
 
 @Composable
 fun ProfileContent() {

@@ -20,7 +20,7 @@ import org.mockito.junit.MockitoJUnitRunner
 import org.mockito.kotlin.given
 import org.mockito.kotlin.whenever
 
-/** Created by github.com/im-o on 5/2/2023.  */
+/** 5/2/2023.  */
 
 @ExperimentalCoroutinesApi
 @RunWith(MockitoJUnitRunner::class)

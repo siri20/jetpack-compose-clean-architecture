@@ -3,7 +3,7 @@ package com.siri.core.util
 import android.content.Context
 import android.widget.Toast
 
-/** Created by github.com/im-o on 5/12/2023. */
+/** 5/12/2023. */
 
 object Extensions {
     fun Context.myToast(message: String) {

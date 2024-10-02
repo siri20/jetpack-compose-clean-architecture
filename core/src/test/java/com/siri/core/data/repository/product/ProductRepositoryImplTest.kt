@@ -16,7 +16,7 @@ import org.mockito.junit.MockitoJUnitRunner
 import org.mockito.kotlin.given
 import org.mockito.kotlin.whenever
 
-/** Created by github.com/im-o on 5/3/2023.  */
+/** 5/3/2023.  */
 @ExperimentalCoroutinesApi
 @RunWith(MockitoJUnitRunner::class)
 class ProductRepositoryImplTest {

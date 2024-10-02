@@ -15,7 +15,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.siri.core.R
 
-/** Created by github.com/im-o on 5/10/2023. */
+/** 5/10/2023. */
 
 @Composable
 fun ProgressProduct() {

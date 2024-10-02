@@ -16,7 +16,7 @@ import com.siri.core.R
 import com.siri.core.data.model.Product
 import com.siri.core.util.UtilFunctions.fromDollarToRupiah
 
-/** Created by github.com/im-o on 5/12/2023. */
+/** 5/12/2023. */
 
 @Composable
 fun TitleProduct(product: Product) {

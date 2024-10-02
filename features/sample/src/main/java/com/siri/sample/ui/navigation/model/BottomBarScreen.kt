@@ -2,7 +2,7 @@ package com.siri.sample.ui.navigation.model
 
 import com.siri.core.R
 
-/** Created by github.com/im-o on 5/8/2023. */
+/** 5/8/2023. */
 
 sealed class BottomBarScreen(val route: String) {
     object Home : BottomBar(

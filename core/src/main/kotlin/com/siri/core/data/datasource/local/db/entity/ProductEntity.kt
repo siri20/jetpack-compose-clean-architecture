@@ -3,7 +3,7 @@ package com.siri.core.data.datasource.local.db.entity
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 
-/** Created by github.com/im-o on 12/27/2022. */
+/** 12/27/2022. */
 
 @Entity(tableName = "table_shop", primaryKeys = ["id"])
 data class ProductEntity(

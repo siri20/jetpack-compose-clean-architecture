@@ -17,7 +17,7 @@ import com.siri.core.data.model.Product
 import com.siri.sample.ui.component.EmptyProduct
 import com.siri.sample.ui.component.ProductItem
 
-/** Created by github.com/im-o on 5/10/2023. */
+/** 5/10/2023. */
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

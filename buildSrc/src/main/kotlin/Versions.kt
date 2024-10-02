@@ -1,4 +1,4 @@
-/** Created by github.com/im-o on 12/12/2022. */
+
 
 object Versions {
     const val compile_sdk = 33

@@ -3,7 +3,7 @@ package com.siri.core.data.datasource.local.db.dao
 import androidx.room.*
 import com.siri.core.data.datasource.local.db.entity.ProductEntity
 
-/** Created by github.com/im-o on 12/27/2022. */
+/** 12/27/2022. */
 
 @Dao
 interface ProductDao {

@@ -9,7 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
-/** Created by github.com/im-o on 5/10/2023. */
+/** 5/10/2023. */
 
 @Composable
 fun MainTemplate(

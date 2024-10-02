@@ -30,7 +30,7 @@ import androidx.navigation.compose.rememberNavController
 import com.siri.sample.ui.navigation.model.BottomBar
 import com.siri.sample.ui.navigation.model.BottomBarScreen
 
-/** Created by github.com/im-o on 5/13/2023. */
+/** 5/13/2023. */
 
 @Composable
 fun BottomNav(

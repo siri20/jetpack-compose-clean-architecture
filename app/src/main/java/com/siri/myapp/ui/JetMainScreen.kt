@@ -15,8 +15,6 @@ import com.siri.sample.ui.navigation.NavRail
 import com.siri.sample.ui.navigation.model.BottomBarScreen
 import com.siri.sample.ui.navigation.navdrawer.NavDrawer
 
-/** Created by github.com/im-o on 12/12/2022. */
-
 @Composable
 fun JetMainScreen(
     modifier: Modifier = Modifier,

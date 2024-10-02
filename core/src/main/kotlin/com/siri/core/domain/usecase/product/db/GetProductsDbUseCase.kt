@@ -6,7 +6,7 @@ import com.siri.core.domain.usecase.BaseUseCase
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
-/** Created by github.com/im-o on 5/2/2023. */
+/** 5/2/2023. */
 
 class GetProductsDbUseCase @Inject constructor(
     private val dbProductRepository: DbProductRepository

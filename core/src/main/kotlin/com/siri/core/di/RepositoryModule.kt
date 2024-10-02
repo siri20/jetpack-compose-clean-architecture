@@ -12,7 +12,7 @@ import com.siri.core.domain.repository.product.DbProductRepository
 import com.siri.core.domain.repository.product.ProductRepository
 import javax.inject.Singleton
 
-/** Created by github.com/im-o on 12/17/2022. */
+/** 12/17/2022. */
 
 @Module
 @InstallIn(SingletonComponent::class)

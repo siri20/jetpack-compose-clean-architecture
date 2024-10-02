@@ -5,7 +5,7 @@ import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-/** Created by github.com/im-o on 5/12/2023. */
+/** 5/12/2023. */
 
 object Dimens {
     val dp0: Dp = 0.dp

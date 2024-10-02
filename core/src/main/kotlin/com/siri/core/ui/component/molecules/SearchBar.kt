@@ -38,7 +38,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import com.siri.core.R
 import com.siri.core.util.Dimens
 
-/** Created by github.com/im-o on 12/27/2022. */
+/** 12/27/2022. */
 
 @Composable
 fun SearchBar(

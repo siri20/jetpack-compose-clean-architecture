@@ -23,7 +23,7 @@ import com.siri.core.ui.theme.Gray200
 import com.siri.core.util.Dimens
 import com.siri.sample.ui.profile.section.ProfileContent
 
-/** Created by github.com/im-o on 12/12/2022. */
+
 
 @Composable
 fun ProfileScreen() {

@@ -32,7 +32,7 @@ import androidx.navigation.NavHostController
 import com.siri.core.util.Dimens
 import com.siri.sample.ui.navigation.model.BottomBar
 
-/** Created by github.com/im-o on 11/2/2023. */
+/** 11/2/2023. */
 
 @Composable
 fun NavRail(

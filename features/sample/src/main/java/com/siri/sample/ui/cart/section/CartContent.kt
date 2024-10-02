@@ -20,7 +20,7 @@ import com.siri.sample.ui.cart.CartViewModel
 import com.siri.sample.ui.component.EmptyProduct
 import com.siri.sample.ui.component.ProductCartItem
 
-/** Created by github.com/im-o on 5/12/2023. */
+/** 5/12/2023. */
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

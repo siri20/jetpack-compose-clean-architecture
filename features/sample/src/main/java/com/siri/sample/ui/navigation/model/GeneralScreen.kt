@@ -1,6 +1,6 @@
 package com.siri.sample.ui.navigation.model
 
-/** Created by github.com/im-o on 5/10/2023. */
+/** 5/10/2023. */
 
 sealed class GeneralScreen(val route: String) {
 

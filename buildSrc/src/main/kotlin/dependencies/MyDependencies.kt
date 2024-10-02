@@ -1,6 +1,6 @@
 package dependencies
 
-/** Created by github.com/im-o on 12/13/2022. */
+/** 12/13/2022. */
 
 object MyDependencies {
 

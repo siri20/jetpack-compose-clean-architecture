@@ -37,7 +37,7 @@ import com.siri.core.util.Extensions.myToast
 import com.siri.core.util.UtilFunctions.logE
 import com.siri.sample.ui.detail.DetailViewModel
 
-/** Created by github.com/im-o on 5/12/2023. */
+/** 5/12/2023. */
 
 @Composable
 fun DetailContent(

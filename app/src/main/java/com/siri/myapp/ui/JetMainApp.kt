@@ -5,7 +5,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.siri.myapp.utils.JetNavigationType
 
-/** Created by github.com/im-o on 10/28/2023. */
+/** 10/28/2023. */
 
 @Composable
 fun JetMainApp(

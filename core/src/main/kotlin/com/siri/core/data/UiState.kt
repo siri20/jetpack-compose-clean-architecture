@@ -1,6 +1,6 @@
 package com.siri.core.data
 
-/** Created by github.com/im-o on 12/20/2022. */
+/** 12/20/2022. */
 
 sealed class UiState<out T : Any?> {
 

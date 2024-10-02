@@ -22,7 +22,7 @@ import com.siri.core.ui.theme.Gray200
 import com.siri.sample.ui.component.ProgressProduct
 import com.siri.sample.ui.home.section.HomeContent
 
-/** Created by github.com/im-o on 12/12/2022. */
+
 
 @Composable
 fun HomeScreen(

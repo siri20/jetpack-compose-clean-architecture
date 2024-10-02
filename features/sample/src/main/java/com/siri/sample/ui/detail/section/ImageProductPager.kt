@@ -34,7 +34,7 @@ import com.siri.core.R
 import com.siri.core.data.model.Product
 import com.siri.core.util.Dimens
 
-/** Created by github.com/im-o on 5/12/2023. */
+/** 5/12/2023. */
 
 @OptIn(ExperimentalPagerApi::class)
 @Composable

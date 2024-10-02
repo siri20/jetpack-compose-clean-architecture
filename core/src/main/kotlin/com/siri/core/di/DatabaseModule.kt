@@ -11,7 +11,7 @@ import com.siri.core.data.datasource.local.db.AppDatabase
 import com.siri.core.util.UtilConstants.DB_JET_SHOPEE
 import javax.inject.Singleton
 
-/** Created by github.com/im-o on 12/27/2022. */
+/** 12/27/2022. */
 
 @Module
 @InstallIn(SingletonComponent::class)

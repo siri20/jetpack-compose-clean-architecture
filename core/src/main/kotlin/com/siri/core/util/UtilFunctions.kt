@@ -5,7 +5,7 @@ import com.siri.core.BuildConfig
 import java.text.NumberFormat
 import java.util.Locale
 
-/** Created by github.com/im-o on 12/1/2022. */
+/** 12/1/2022. */
 
 object UtilFunctions {
     private val localeID = Locale("in", "ID")

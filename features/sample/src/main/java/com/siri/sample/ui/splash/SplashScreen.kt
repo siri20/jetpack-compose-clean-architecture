@@ -27,7 +27,7 @@ import com.siri.core.ui.theme.JetShopeeTheme
 import com.siri.core.util.Dimens
 import kotlinx.coroutines.delay
 
-/** Created by github.com/im-o on 8/29/2024. */
+/** 8/29/2024. */
 
 @Composable
 fun SplashScreen(

@@ -5,7 +5,7 @@ import com.siri.core.domain.repository.product.DbProductRepository
 import com.siri.core.domain.usecase.BaseUseCaseSuspend
 import javax.inject.Inject
 
-/** Created by github.com/im-o on 5/2/2023. */
+/** 5/2/2023. */
 
 class DeleteProductDbUseCase @Inject constructor(
     private val dbProductRepository: DbProductRepository

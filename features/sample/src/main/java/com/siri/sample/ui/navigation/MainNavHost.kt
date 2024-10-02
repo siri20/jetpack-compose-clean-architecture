@@ -17,7 +17,7 @@ import com.siri.sample.ui.navigation.model.GeneralScreen
 import com.siri.sample.ui.profile.ProfileScreen
 import com.siri.sample.ui.search.SearchScreen
 
-/** Created by github.com/im-o on 5/13/2023. */
+/** 5/13/2023. */
 
 @Composable
 fun MainNavHost(

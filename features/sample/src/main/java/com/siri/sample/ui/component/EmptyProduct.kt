@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import com.siri.core.R
 
-/** Created by github.com/im-o on 5/10/2023. */
+/** 5/10/2023. */
 
 @Composable
 fun EmptyProduct() {

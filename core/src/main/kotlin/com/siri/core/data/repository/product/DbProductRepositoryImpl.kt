@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.flowOf
 import javax.inject.Inject
 import javax.inject.Singleton
 
-/** Created by github.com/im-o on 12/27/2022. */
+/** 12/27/2022. */
 
 @Singleton
 class DbProductRepositoryImpl @Inject constructor(

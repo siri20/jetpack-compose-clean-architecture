@@ -33,7 +33,7 @@ import com.siri.sample.ui.component.ProgressProduct
 import com.siri.sample.ui.home.HomeViewModel
 import com.siri.sample.ui.search.section.SearchContent
 
-/** Created by github.com/im-o on 5/10/2023. */
+/** 5/10/2023. */
 
 @Composable
 fun SearchScreen(

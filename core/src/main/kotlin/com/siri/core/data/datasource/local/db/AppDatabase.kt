@@ -5,7 +5,7 @@ import androidx.room.RoomDatabase
 import com.siri.core.data.datasource.local.db.dao.ProductDao
 import com.siri.core.data.datasource.local.db.entity.ProductEntity
 
-/** Created by github.com/im-o on 12/27/2022. */
+/** 12/27/2022. */
 
 @Database(
     entities = [ProductEntity::class],

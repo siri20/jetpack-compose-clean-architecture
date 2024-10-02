@@ -17,7 +17,7 @@ import com.siri.sample.ui.navigation.model.BottomBar
 import com.siri.sample.ui.navigation.navdrawer.sections.NavDrawerSection
 import kotlinx.coroutines.launch
 
-/** Created by github.com/im-o on 11/14/2023. */
+/** 11/14/2023. */
 
 @Composable
 fun NavDrawer(

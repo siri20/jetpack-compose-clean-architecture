@@ -16,7 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.zIndex
 
-/** Created by github.com/im-o on 5/10/2023. */
+/** 5/10/2023. */
 
 @Composable
 fun DetailTemplate(

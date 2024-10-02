@@ -23,7 +23,7 @@ import androidx.compose.ui.text.font.FontWeight
 import com.siri.core.R
 import com.siri.core.util.Dimens
 
-/** Created by github.com/im-o on 11/16/2023. */
+/** 11/16/2023. */
 
 @Composable
 fun NavDrawerHeader(

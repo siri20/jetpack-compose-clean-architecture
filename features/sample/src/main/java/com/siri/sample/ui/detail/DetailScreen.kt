@@ -26,7 +26,7 @@ import com.siri.core.ui.theme.Gray200
 import com.siri.sample.ui.component.ProgressProduct
 import com.siri.sample.ui.detail.section.DetailContent
 
-/** Created by github.com/im-o on 12/22/2022. */
+/** 12/22/2022. */
 
 @Composable
 fun DetailScreen(
