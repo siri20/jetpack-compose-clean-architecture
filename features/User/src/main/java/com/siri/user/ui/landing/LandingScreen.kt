@@ -18,7 +18,7 @@ import com.siri.core.data.UserUiState
 import com.siri.core.data.model.UsersResponse
 import com.siri.core.ui.template.MainTemplate
 import com.siri.core.ui.theme.Gray200
-import com.siri.user.ui.component.ProgressProduct
+import com.siri.user.ui.component.ProgressUser
 import com.siri.user.ui.landing.section.LandingContent
 
 @Composable
@@ -41,7 +41,7 @@ fun UserScreen(
                 when (uiStateUser) {
                     is UserUiState.Loading -> {
                         viewModel.getProductsApiCall()
-                        ProgressProduct()
+                        ProgressUser()
                     }
 
                     is UserUiState.Success -> {

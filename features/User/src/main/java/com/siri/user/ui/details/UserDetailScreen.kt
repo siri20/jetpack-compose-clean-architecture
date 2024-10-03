@@ -23,7 +23,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.siri.core.R
 import com.siri.core.data.UserUiState
 import com.siri.core.ui.theme.Gray200
-import com.siri.user.ui.component.ProgressProduct
+import com.siri.user.ui.component.ProgressUser
 import com.siri.user.ui.details.section.UserDetailContent
 
 @Composable
@@ -64,7 +64,7 @@ fun DetailsScreen(
                     when (uiState) {
                         is UserUiState.Loading -> {
                             viewModel.getUserByIdApiCall(id = id)
-                            ProgressProduct()
+                            ProgressUser()
                         }
 
                         is UserUiState.Success -> {

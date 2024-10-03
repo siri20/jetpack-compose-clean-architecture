@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.dp
 import com.siri.core.R
 
 @Composable
-fun ProgressProduct() {
+fun ProgressUser() {
     Column {
         CircularProgressIndicator(
             modifier = Modifier
@@ -28,7 +28,7 @@ fun ProgressProduct() {
             modifier = Modifier
                 .fillMaxWidth()
                 .wrapContentWidth(Alignment.CenterHorizontally),
-            text = stringResource(R.string.load_product),
+            text = "Loading....",
             color = MaterialTheme.colorScheme.onSurface
         )
     }

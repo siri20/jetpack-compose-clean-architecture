@@ -16,7 +16,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import dagger.hilt.android.AndroidEntryPoint
 import com.siri.core.ui.theme.JetShopeeTheme
 import com.siri.myapp.ui.interview.MyPracticeMainApp
-import com.siri.user.ui.splash.SplashScreen
+import com.siri.user.ui.splash.UserSplashScreen
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
                     val windowSize = calculateWindowSizeClass(this)
                     var showSplashScreen by remember { mutableStateOf(true) }
                     if (showSplashScreen) {
-                        SplashScreen(onTimeout = { showSplashScreen = false })
+                        UserSplashScreen(onTimeout = { showSplashScreen = false })
                     } else {
                         MyPracticeMainApp(windowSize = windowSize.widthSizeClass)
                     }

@@ -28,7 +28,7 @@ import com.siri.core.util.Dimens
 /** 8/29/2024. */
 
 @Composable
-fun SplashScreen(
+fun UserSplashScreen(
     onTimeout: () -> Unit, modifier: Modifier = Modifier
 ) {
     LaunchedEffect(Unit) {
@@ -64,6 +64,6 @@ fun SplashScreen(
 @Composable
 fun SplashScreenPreview() {
     JetShopeeTheme {
-        SplashScreen(onTimeout = {})
+        UserSplashScreen(onTimeout = {})
     }
 }
