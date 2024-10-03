@@ -1,7 +1,5 @@
 package com.siri.user.ui.landing
 
-import androidx.compose.runtime.State
-import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -24,9 +22,6 @@ class UserViewModel @Inject constructor(
     private val _uiStateUser: MutableStateFlow<UserUiState<UsersResponse>> = MutableStateFlow(
         UserUiState.Loading)
     val uiStateUser: StateFlow<UserUiState<UsersResponse>> = _uiStateUser
-
-    private val _query = mutableStateOf("")
-    val query: State<String> get() = _query
 
     fun getProductsApiCall() { // this is sample not using `suspend`
         getUserUseCase.execute(Unit).onEach { user ->

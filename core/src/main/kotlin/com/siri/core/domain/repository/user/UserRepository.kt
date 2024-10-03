@@ -1,4 +1,4 @@
-package com.siri.core.domain.repository.practice
+package com.siri.core.domain.repository.user
 
 import com.siri.core.data.model.User
 import com.siri.core.data.model.UsersResponse

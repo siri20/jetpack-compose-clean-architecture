@@ -6,7 +6,6 @@ import com.siri.core.data.model.User
 import com.siri.core.data.model.UsersResponse
 import retrofit2.http.*
 
-/** 10/1/2022. */
 
 interface ApiService {
 

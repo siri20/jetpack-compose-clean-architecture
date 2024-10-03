@@ -1,7 +1,7 @@
 package com.siri.core.domain.usecase.user
 
 import com.siri.core.data.model.UsersResponse
-import com.siri.core.domain.repository.practice.UserRepository
+import com.siri.core.domain.repository.user.UserRepository
 import com.siri.core.domain.usecase.BaseUseCase
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject

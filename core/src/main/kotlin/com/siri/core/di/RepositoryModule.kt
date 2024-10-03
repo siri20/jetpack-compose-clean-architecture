@@ -9,12 +9,11 @@ import com.siri.core.data.datasource.remote.ApiService
 import com.siri.core.data.repository.product.DbProductRepositoryImpl
 import com.siri.core.data.repository.product.UserRepositoryImpl
 import com.siri.core.data.repository.product.ProductRepositoryImpl
-import com.siri.core.domain.repository.practice.UserRepository
+import com.siri.core.domain.repository.user.UserRepository
 import com.siri.core.domain.repository.product.DbProductRepository
 import com.siri.core.domain.repository.product.ProductRepository
 import javax.inject.Singleton
 
-/** 12/17/2022. */
 
 @Module
 @InstallIn(SingletonComponent::class)

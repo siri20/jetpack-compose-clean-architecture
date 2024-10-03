@@ -1,7 +1,5 @@
 package dependencies
 
-/** 12/13/2022. */
-
 object MyDependencies {
 
     // DEFAULT DEPENDENCIES

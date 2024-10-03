@@ -1,5 +1,3 @@
-
-
 object Versions {
     const val compile_sdk = 33
     const val min_sdk = 24

@@ -14,8 +14,6 @@ import com.siri.core.domain.usecase.product.db.GetProductByIdDbUseCase
 import com.siri.core.domain.usecase.product.db.GetProductsDbUseCase
 import com.siri.core.domain.usecase.product.db.InsertProductDbUseCase
 
-/** 5/1/2023. */
-
 @Module
 @InstallIn(ViewModelComponent::class)
 object ProductUseCaseModule {
