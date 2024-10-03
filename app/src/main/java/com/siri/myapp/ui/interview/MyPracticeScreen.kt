@@ -6,7 +6,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.siri.sample.ui.practice.Practice
+import com.siri.user.ui.practice.User
 
 @Composable
 fun MyPracticeScreen(
@@ -16,5 +16,5 @@ fun MyPracticeScreen(
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentDestination = navBackStackEntry?.destination
 
-    Practice(modifier = modifier, navController = navController, currentDestination = currentDestination)
+    User(modifier = modifier, navController = navController, currentDestination = currentDestination)
 }

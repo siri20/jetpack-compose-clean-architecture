@@ -62,6 +62,7 @@ android {
 
 dependencies {
     implementation(project(Modules.core))
+    implementation(project(Modules.user))
     implementation(project(Modules.sample))
 
     // TESTING

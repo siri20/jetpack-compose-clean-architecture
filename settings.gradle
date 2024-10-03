@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 rootProject.name = "Jetpack Compose clean architecture"
 include ':app'
 include ':core'
+include ':features:user'
 include ':features:sample'

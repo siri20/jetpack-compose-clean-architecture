@@ -10,10 +10,10 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.siri.core.ui.theme.JetShopeeTheme
 import com.siri.myapp.utils.JetNavigationType
-import com.siri.sample.ui.navigation.BottomNav
-import com.siri.sample.ui.navigation.NavRail
-import com.siri.sample.ui.navigation.model.BottomBarScreen
-import com.siri.sample.ui.navigation.navdrawer.NavDrawer
+import com.siri.user.ui.navigation.BottomNav
+import com.siri.user.ui.navigation.NavRail
+import com.siri.user.ui.navigation.model.BottomBarScreen
+import com.siri.user.ui.navigation.navdrawer.NavDrawer
 
 @Composable
 fun JetMainScreen(

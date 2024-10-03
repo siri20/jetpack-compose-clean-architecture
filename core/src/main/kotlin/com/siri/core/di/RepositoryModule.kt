@@ -7,9 +7,9 @@ import dagger.hilt.components.SingletonComponent
 import com.siri.core.data.datasource.local.db.AppDatabase
 import com.siri.core.data.datasource.remote.ApiService
 import com.siri.core.data.repository.product.DbProductRepositoryImpl
-import com.siri.core.data.repository.product.PracticeRepositoryImpl
+import com.siri.core.data.repository.product.UserRepositoryImpl
 import com.siri.core.data.repository.product.ProductRepositoryImpl
-import com.siri.core.domain.repository.practice.PracticeRepository
+import com.siri.core.domain.repository.practice.UserRepository
 import com.siri.core.domain.repository.product.DbProductRepository
 import com.siri.core.domain.repository.product.ProductRepository
 import javax.inject.Singleton
@@ -22,8 +22,8 @@ object RepositoryModule {
 
     @Provides
     @Singleton
-    fun providePracticeRepository(apiService: ApiService): PracticeRepository {
-        return PracticeRepositoryImpl(apiService)
+    fun providePracticeRepository(apiService: ApiService): UserRepository {
+        return UserRepositoryImpl(apiService)
     }
 
     @Provides

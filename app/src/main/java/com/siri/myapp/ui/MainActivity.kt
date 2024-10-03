@@ -16,7 +16,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import dagger.hilt.android.AndroidEntryPoint
 import com.siri.core.ui.theme.JetShopeeTheme
 import com.siri.myapp.ui.interview.MyPracticeMainApp
-import com.siri.sample.ui.splash.SplashScreen
+import com.siri.user.ui.splash.SplashScreen
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
