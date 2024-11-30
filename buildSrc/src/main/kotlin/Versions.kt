@@ -5,7 +5,7 @@ object Versions {
     const val version_code = 1
     const val version_name = "1.0"
 
-    const val gradle_plugin = "7.3.1"
+    const val gradle_plugin = "8.5.0"
     const val google_services = "4.3.15"
     const val kotlin_gradle_plugin = "1.8.21"
     const val compose_compiler = "1.4.7"

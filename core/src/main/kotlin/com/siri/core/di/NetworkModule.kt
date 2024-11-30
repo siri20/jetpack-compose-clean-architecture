@@ -5,7 +5,6 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import com.siri.core.BuildConfig
 import com.siri.core.data.datasource.remote.ApiService
 import com.siri.core.network.interceptor.HttpRequestInterceptor
 import okhttp3.OkHttpClient
@@ -21,8 +20,8 @@ object NetworkModule {
     @Provides
     @Singleton
     fun provideLoggingInterceptor(): HttpLoggingInterceptor {
-        return if (BuildConfig.DEBUG) HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
-        else HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.NONE)
+        return HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
+//        else HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.NONE)
     }
 
     @Provides
